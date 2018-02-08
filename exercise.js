@@ -19,13 +19,15 @@ var notHof = hof.pop();
 console.log(hof);
 
 
-
 /* The array.push() adds one or more element to the end of an array and returns the new length of the array*/
 
 /*2. You've been tasked to do this week's grocery shopping. As you arrive at Times Supermarket, Kanye pings you to get a bottle of Hendricks gin. Add this to the existing shoppingList and console.log it.*/
 
 var shoppingList = ["cool ranch doritos", "kings hawaiian sweet bread", "peanut butter oreos", "fruit loops cereal"];
+console.log(shoppingList);
 
+shoppingList.push("Hendricks gin");
+console.log(shoppingList);
 
 
 
