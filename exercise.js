@@ -36,7 +36,10 @@ console.log(shoppingList);
 /*3. Use the force, or in this case the reverse method to help Yoda make some sense with his motivational talk to the young Jedi interns.*/
 
 var yoda = ["try", "no", "is", "there", "not", "do", "or", "do"];
+console.log(yoda);
 
+yoda.reverse();
+console.log(yoda);
 
 
 /*The array.shift() removes the first element from an array and returns that element*/
